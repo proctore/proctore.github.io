@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^https://www.nytimes.com/interactive/2018/09/25/climate/scotland-orkney-islands-sea-level.html?action=click&module=Top%20Stories&pgtype=Homepage?$ index.html

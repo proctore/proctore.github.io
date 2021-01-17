@@ -1,0 +1,31 @@
+{
+  "short_name": "Proctor",
+  "name": "Proctor",
+  "theme_color": "#337ab7",
+  "background_color": "#337ab7",
+  "display": "standalone",
+  "description": "An Efficient AI Based Proctor",
+  "icons": [
+    {
+      "src": "https://proctor.github.io/favicon/favicon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://proctor.github.io/favicon/favicon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://proctor.github.io/favicon/apple-icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://proctor.github.io/favicon/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/"
+}

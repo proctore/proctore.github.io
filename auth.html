@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    		 https://firebase.google.com/docs/web/setup#available-libraries -->
+    	<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+    <script>
+    	// Your web app's Firebase configuration
+    	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    	var firebaseConfig = {
+    		apiKey: "AIzaSyCuwZLvFYIXqrO9IhiD_wUYSS6xKz287G4",
+    		authDomain: "proctor-96511.firebaseapp.com",
+    		projectId: "proctor-96511",
+    		storageBucket: "proctor-96511.appspot.com",
+    		messagingSenderId: "782036150781",
+    		appId: "1:782036150781:web:78d84200dcd02327995194",
+    		measurementId: "G-BHS76LQV6Z"
+    	};
+    	// Initialize Firebase
+    	firebase.initializeApp(firebaseConfig);
+
+
+    </script>
+    <script defer src="autha.js"></script>
+  </head>
+  <body>
+    <div id="Registration">
+  <h1>Registration using Firebase!!!</h1>
+  <input type="text" name="email" id="txtEmail" placeholder="Enter Your Email"><br><br>
+  <input type="text" name="pass" id="txtPassword" placeholder="Enter Your Password"><br>
+  <button id="login">Registration New User</button>
+		<p id="message" hidden></p>
+    </div>
+
+  </body>
+</html>
